@@ -12,8 +12,6 @@ def strToNumeric(val):
     return float(b)
 
 
-
-
 # ---- MAIN ------
 # column PROFIT to numeric
 df_orders[['Profit']] = df_orders[['Profit']].applymap(strToNumeric)
